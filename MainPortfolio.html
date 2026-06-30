@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shivaji Goud Ediga | Java Full Stack Developer</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@2.16.0/devicon.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============== NAVBAR ============== -->
+<div class="main-navbar">
+    <div class="logo">
+        <div class="logo-mark">SG</div>
+        <div class="name-navbar">
+            <h3>Shivaji <span>Goud</span> <span style="color:#56d4dd;">Ediga</span></h3>
+        </div>
+    </div>
+
+    <ul class="nav-bar">
+        <li data-target="home" class="active"><i class="fa-solid fa-house"></i> Home</li>
+        <li data-target="about"><i class="fa-regular fa-user"></i> About</li>
+        <li data-target="skills"><i class="fa-solid fa-code"></i> Skills</li>
+        <li data-target="projects"><i class="fa-solid fa-folder"></i> Projects</li>
+        <li data-target="education"><i class="fa-solid fa-graduation-cap"></i> Education</li>
+        <li data-target="certifications"><i class="fa-solid fa-certificate"></i> Certifications</li>
+        <li data-target="contact"><i class="fa-solid fa-envelope"></i> Contact</li>
+    </ul>
+
+    <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+    </button>
+</div>
+
+<!-- ============== HERO ============== -->
+<div id="home" class="profile-section">
+
+    <div class="hero-text">
+        <h1>I'm <span class="blue">SHIVAJI</span> <span class="purple">GOUD</span> <span class="pink">EDIGA</span></h1>
+        <h2>Java <span class="blue">Full Stack</span> Developer</h2>
+
+        <ul class="tag-row">
+            <li>Java Enthusiast</li>
+            <li>Spring Boot</li>
+            <li>Problem Solver</li>
+            <li>Web Developer</li>
+        </ul>
+
+        <div class="info">
+            <p>Passionate Java Full Stack Developer with a strong foundation in Java, Spring Boot, SQL, HTML, CSS, JavaScript and React. I enjoy building responsive web applications and solving real-world problems.</p>
+        </div>
+
+        <div class="resumes">
+            <a href="Updatedresume2026.pdf" download="Shivaji_Goud_Ediga_Resume.pdf">
+                <button class="resume-btn">
+                    <i class="fa-solid fa-download"></i>
+                    Download Resume
+                </button>
+            </a>
+            <button class="contact-btn" data-target="contact" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+                <i class="fa-solid fa-envelope"></i>
+                Contact Me
+            </button>
+        </div>
+    </div>
+
+    <div class="hero-visual">
+        <div class="profileimg-wrap">
+            <div class="profileimg-inner">
+                <img class="profileimg" src="shivajiprofile.jpeg" alt="Shivaji Goud Ediga">
+            </div>
+        </div>
+
+        <div class="terminal">
+        <div class="terminal-bar">
+            <span class="terminal-dot red"></span>
+            <span class="terminal-dot yellow"></span>
+            <span class="terminal-dot green"></span>
+            <span class="terminal-title">developer.json</span>
+        </div>
+        <div class="terminal-body">
+            <div><span class="code-punc">{</span></div>
+            <div>&nbsp;&nbsp;<span class="code-key">"name"</span><span class="code-punc">:</span> <span class="code-str">"Shivaji Goud Ediga"</span><span class="code-punc">,</span></div>
+            <div>&nbsp;&nbsp;<span class="code-key">"role"</span><span class="code-punc">:</span> <span class="code-str">"<span id="typewriter" data-role="Java Full Stack Developer"></span><span class="cursor-blink"></span>"</span></div>
+            <div>&nbsp;&nbsp;<span class="code-key">"stack"</span><span class="code-punc">:</span> <span class="code-punc">[</span><span class="code-str">"Java"</span><span class="code-punc">,</span> <span class="code-str">"Spring"</span><span class="code-punc">,</span> <span class="code-str">"React"</span><span class="code-punc">],</span></div>
+            <div>&nbsp;&nbsp;<span class="code-key">"status"</span><span class="code-punc">:</span> <span class="code-str">"open_to_work"</span></div>
+            <div><span class="code-punc">}</span></div>
+        </div>
+        </div>
+    </div>
+</div>
+
+<!-- ============== ABOUT ============== -->
+<section id="about" class="about reveal">
+    <h2>About Me</h2>
+    <p>
+        I'm <span>Shivaji Goud Ediga</span>, a passionate Java Full Stack Developer
+        with a strong foundation in Java, Spring Boot, SQL, HTML, CSS, JavaScript,
+        and React. I enjoy building responsive web applications and solving
+        real-world problems. As a recent B.Tech graduate, I'm eager to learn
+        new technologies and contribute to innovative software projects.
+    </p>
+</section>
+
+<!-- ============== SKILLS ============== -->
+<div id="skills" class="skills">
+    <div class="section-head reveal">
+        <h3 class="skill-header">My Skills</h3>
+        <p class="section-sub">Technologies I work with to build modern and efficient solutions.</p>
+    </div>
+
+    <div class="skill-sets">
+        <div class="skill-card">
+            <i style="color:#3b82f6;" class="devicon-java-plain colored"></i>
+            <h3>JAVA</h3>
+            <p>Core Java, OOPs, Collections, Streams, Multithreading</p>
+        </div>
+        <div class="skill-card">
+            <i style="color:#3fb950;" class="devicon-spring-plain colored"></i>
+            <h3>SPRING BOOT</h3>
+            <p>Spring Boot, Spring MVC, Spring Data JPA</p>
+        </div>
+        <div class="skill-card">
+            <i style="color:#e34c26;" class="devicon-html5-plain colored"></i>
+            <h3>HTML5</h3>
+            <p>Semantic HTML, Forms, Accessibility</p>
+        </div>
+        <div class="skill-card">
+            <i style="color:#3b82f6;" class="devicon-css3-plain colored"></i>
+            <h3>CSS3</h3>
+            <p>Flexbox, Grid, Animations, Responsive Design</p>
+        </div>
+        <div class="skill-card">
+            <i style="color:#e3b341;" class="devicon-javascript-plain colored"></i>
+            <h3>JAVASCRIPT</h3>
+            <p>ES6+, DOM, Events, Async/Await</p>
+        </div>
+        <div class="skill-card">
+            <i style="color:#56d4dd;" class="devicon-react-plain colored"></i>
+            <h3>REACT</h3>
+            <p>Components, Router, Context API, Redux, Hooks</p>
+        </div>
+        <div class="skill-card">
+            <i style="color:#bc8cff;" class="devicon-mysql-plain colored"></i>
+            <h3>MYSQL</h3>
+            <p>SQL Queries, Joins, Indexing, Relationships</p>
+        </div>
+        <div class="skill-card">
+            <i style="color:#ff7eb6;" class="devicon-git-plain colored"></i>
+            <h3>GIT</h3>
+            <p>Git, GitHub, Version Control, Branching, Pull Requests</p>
+        </div>
+    </div>
+
+    <p class="skills-foot">Always learning, always improving...</p>
+</div>
+
+<!-- ============== PROJECTS ============== -->
+<div id="projects" class="projects-wrap">
+    <div class="projects-head reveal">
+                <h2>My <span>Projects</span></h2>
+    </div>
+
+    <div class="projects">
+        <div class="project-card">
+            <div class="img-wrap"><img src="aaharlogo.jpeg" alt="Aahara Food Delivery"></div>
+            <h3><span>Aahara</span> Food Delivery</h3>
+            <p>A full-stack food delivery application that connects customers with restaurants. It includes secure authentication, restaurant management, menu browsing, order placement, and real-time order tracking.</p>
+            <ul class="technologies-used">
+                <li>Java</li>
+                <li>Spring Boot</li>
+                <li>PostgreSQL</li>
+                <li>Flutter</li>
+            </ul>
+        </div>
+
+        <div class="project-card">
+            <div class="img-wrap"><img src="face.jpeg" alt="Face Recognition Attendance System"></div>
+            <h3>Face Recognition Attendance System</h3>
+            <p>A smart attendance system that uses face recognition to automatically identify students and record attendance. It reduces manual work and provides accurate attendance reports.</p>
+            <ul class="technologies-used">
+                <li>Python</li>
+                <li>OpenCV</li>
+                <li>Tkinter</li>
+                <li>SQLite</li>
+            </ul>
+        </div>
+
+        <div class="project-card">
+            <div class="img-wrap"><img src="javacodehubs.jpeg" alt="JavaCodeHubs"></div>
+            <h3>JavaCodeHubs</h3>
+            <p>An interactive learning platform for Java developers featuring coding tutorials, interview questions, coding challenges, and Java Full Stack learning resources.</p>
+            <ul class="technologies-used">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Spring Boot</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- ============== EDUCATION ============== -->
+<section id="education" class="education">
+    <div class="section-head reveal">
+        <h2>Education</h2>
+        <p class="section-sub">My academic journey that built the foundation of my knowledge.</p>
+    </div>
+
+    <div class="timeline">
+        <div class="edu-card">
+            <h3>B.Tech in Computer Science &amp; Engineering</h3>
+            <p>Annamacharya University, Rajampet</p>
+            <span>2022 - 2026 | CGPA: 8.96</span>
+        </div>
+
+        <div class="edu-card">
+            <h3>Intermediate (MPC)</h3>
+            <p>Sri Chaitanya Junior College</p>
+            <span>2020 - 2022 | 95%</span>
+        </div>
+
+        <div class="edu-card">
+            <h3>SSC</h3>
+            <p>Zilla Parishad High School</p>
+            <span>2019 - 2020 | CGPA: 9.8</span>
+        </div>
+    </div>
+</section>
+
+<!-- ============== CERTIFICATIONS ============== -->
+<section id="certifications" class="certifications">
+    <div class="section-head reveal">
+        <h2>Certifications</h2>
+    </div>
+
+    <div class="timeline">
+        <div class="cert-card">
+            <h3>Java Programming</h3>
+            <p>Infosys Springboard</p>
+        </div>
+
+        <div class="cert-card">
+            <h3>Python Programming</h3>
+            <p>Cisco Networking Academy</p>
+        </div>
+
+        <div class="cert-card">
+            <h3>SQL Basics</h3>
+            <p>HackerRank</p>
+        </div>
+
+
+    </div>
+</section>
+
+<!-- ============== CONTACT ============== -->
+<div id="contact" class="contact-wrap">
+    <div class="contact-head reveal">
+        <h2>Get In <span>Touch</span></h2>
+        <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+    </div>
+
+    <div class="contact">
+        <a href="mailto:shivajigoud970@gmail.com" class="contact-cards">
+            <i class="fas fa-envelope"></i>
+            <h3>Email</h3>
+            <p>shivajigoud970@gmail.com</p>
+        </a>
+
+        <div class="contact-cards">
+            <i class="fas fa-phone"></i>
+            <h3>Phone</h3>
+            <p>+91 7036585943</p>
+        </div>
+
+        <div class="contact-cards">
+            <i class="fas fa-location-dot"></i>
+            <h3>Location</h3>
+            <p>India</p>
+        </div>
+
+        <a href="https://github.com/shivajigoudediga" target="_blank" class="contact-cards">
+            <i class="fab fa-github"></i>
+            <h3>GitHub</h3>
+            <p>shivajigoudediga</p>
+        </a>
+
+        <a href="https://www.linkedin.com/in/shivaji-goud-5b9845300" target="_blank" class="contact-cards">
+            <i class="fab fa-linkedin"></i>
+            <h3>LinkedIn</h3>
+            <p>linkedin.com/in/shivaji-goud</p>
+        </a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Shivaji Goud Ediga — built line by line, with Frontend on the brain.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
